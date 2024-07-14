@@ -1,6 +1,6 @@
 import './App.css'
 
-import CurrencyInputs from './currencyInputs';
+import CurrencyInputs from './components/currencyInputs';
 import { useState, useEffect } from "react"
 import axios from "axios"
 
