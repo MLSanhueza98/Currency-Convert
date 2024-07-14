@@ -1,4 +1,5 @@
 {
+  "homepage": "https://MLSanhueza98yarn.github.io/Currency-Convert",
   "name": "conversor-divisas",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,7 +40,6 @@
       "last 1 safari version"
     ]
   },
-  "main": "index.js",
   "repository": "https://github.com/MLSanhueza98/Currency-Convert.git",
   "author": "Mario <mario.ignacio19@gmail.com>",
   "license": "MIT"
